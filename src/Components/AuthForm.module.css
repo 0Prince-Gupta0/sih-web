@@ -1,0 +1,54 @@
+.main{
+  display: flex;
+  align-items: center;
+}
+.auth {
+    margin: 10rem auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    border-radius: 8px;
+    padding: 1rem;
+    text-align: center;
+    background:#c8f1e0;
+    
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+  }
+  
+  .control label {
+    display: block;
+    color:black;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  
+  }
+  
+  .control input {
+    display: block;
+    height: 2rem;
+    width: 20rem;
+    margin: auto;
+    border-radius: 4px;
+    padding: 0.25rem;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+  }
+
+  .button {
+    background-color: transparent;
+    border-color:white;
+    color:white; 
+    margin: 5rem;
+  }
+  
+  .button:hover,
+  .button:active {
+    color: white;
+  }
+  
+  .button span {
+    margin: 0 5rem;
+  }
+  

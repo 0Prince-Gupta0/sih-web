@@ -1,0 +1,59 @@
+.main{
+  display: flex;
+  align-items: center;
+}
+.auth {
+    margin: 10rem auto;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+    width: 25rem;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: #c8f1e0;
+  }
+  .auth h2{
+    text-align: center;
+  }
+  .auth h4{
+    text-align: center;
+    color: grey;
+  }
+  
+  .control {
+    margin-bottom: 0.5rem;
+    border: 1px solid grey;
+    padding:1rem 2rem;
+  }
+  
+  .control label {
+    color: #616161;
+    text-transform: uppercase;
+    margin-bottom: 0.5rem;
+  }
+  
+  .control input {
+    margin-left: 0%;
+    border-radius: 4px;
+    padding: 0.25rem;
+    border: 10px solid #ccc;
+  }
+
+  .button {
+    
+    background-color: transparent;
+    border-color:white;
+    color:white; 
+    margin: 5rem;
+    text-align: center;
+  }
+  
+  .button:hover,
+  .button:active {
+    color: white;
+  }
+  
+  .button span {
+    margin: 0 5rem;
+  }
+  
+  
+  
